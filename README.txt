@@ -99,3 +99,25 @@ git push
 git clone https://github.com/brucelhill/devImpact1
 
 
+# Here's a better git repo strategy
+# 1. Create a new github repo that will hold all the test
+#	websites we create, so we don't have to keep creating
+#	and sharing new repos.  I'm naming mine bh_repo1.
+#
+# 2. Checkout the new repo like this
+C:\Sites>cd c:\
+
+C:\>mkdir git-repos
+
+C:\>cd git-repos
+
+C:\git-repos>git clone https://github.com/brucelhill/bh_repo1
+Cloning into 'bh_repo1'...
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (4/4), done.
+
+C:\git-repos>
+
+# 3. 
